@@ -13,8 +13,6 @@
 		C81BAA2C1EB98FD5006C25BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81BAA2A1EB98FD5006C25BA /* Main.storyboard */; };
 		C81BAA2E1EB98FD5006C25BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C81BAA2D1EB98FD5006C25BA /* Assets.xcassets */; };
 		C81BAA311EB98FD5006C25BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81BAA2F1EB98FD5006C25BA /* LaunchScreen.storyboard */; };
-		C81BAA3C1EB98FD6006C25BA /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BAA3B1EB98FD6006C25BA /* ___Tests.m */; };
-		C81BAA471EB98FD6006C25BA /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BAA461EB98FD6006C25BA /* ___UITests.m */; };
 		C81BAC1B1EB99020006C25BA /* angry_00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C81BAA561EB9901F006C25BA /* angry_00.jpg */; };
 		C81BAC1C1EB99020006C25BA /* angry_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C81BAA571EB9901F006C25BA /* angry_01.jpg */; };
 		C81BAC1D1EB99020006C25BA /* angry_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C81BAA581EB9901F006C25BA /* angry_02.jpg */; };
@@ -489,11 +487,7 @@
 		C81BAA301EB98FD5006C25BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C81BAA321EB98FD5006C25BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C81BAA371EB98FD6006C25BA /* 汤姆猫Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "汤姆猫Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C81BAA3B1EB98FD6006C25BA /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
-		C81BAA3D1EB98FD6006C25BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C81BAA421EB98FD6006C25BA /* 汤姆猫UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "汤姆猫UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C81BAA461EB98FD6006C25BA /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
-		C81BAA481EB98FD6006C25BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C81BAA561EB9901F006C25BA /* angry_00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_00.jpg; sourceTree = "<group>"; };
 		C81BAA571EB9901F006C25BA /* angry_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_01.jpg; sourceTree = "<group>"; };
 		C81BAA581EB9901F006C25BA /* angry_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_02.jpg; sourceTree = "<group>"; };
@@ -968,8 +962,6 @@
 			isa = PBXGroup;
 			children = (
 				C81BAA201EB98FD5006C25BA /* 汤姆猫 */,
-				C81BAA3A1EB98FD6006C25BA /* 汤姆猫Tests */,
-				C81BAA451EB98FD6006C25BA /* 汤姆猫UITests */,
 				C81BAA1F1EB98FD5006C25BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1007,24 +999,6 @@
 				C81BAA541EB9901F006C25BA /* Animations */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C81BAA3A1EB98FD6006C25BA /* 汤姆猫Tests */ = {
-			isa = PBXGroup;
-			children = (
-				C81BAA3B1EB98FD6006C25BA /* ___Tests.m */,
-				C81BAA3D1EB98FD6006C25BA /* Info.plist */,
-			);
-			path = "汤姆猫Tests";
-			sourceTree = "<group>";
-		};
-		C81BAA451EB98FD6006C25BA /* 汤姆猫UITests */ = {
-			isa = PBXGroup;
-			children = (
-				C81BAA461EB98FD6006C25BA /* ___UITests.m */,
-				C81BAA481EB98FD6006C25BA /* Info.plist */,
-			);
-			path = "汤姆猫UITests";
 			sourceTree = "<group>";
 		};
 		C81BAA541EB9901F006C25BA /* Animations */ = {
@@ -1651,6 +1625,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -2151,7 +2126,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C81BAA3C1EB98FD6006C25BA /* ___Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2159,7 +2133,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C81BAA471EB98FD6006C25BA /* ___UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2375,6 +2348,7 @@
 				C81BAA4D1EB98FD6006C25BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C81BAA4E1EB98FD6006C25BA /* Build configuration list for PBXNativeTarget "汤姆猫Tests" */ = {
 			isa = XCConfigurationList;
@@ -2383,6 +2357,7 @@
 				C81BAA501EB98FD6006C25BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C81BAA511EB98FD6006C25BA /* Build configuration list for PBXNativeTarget "汤姆猫UITests" */ = {
 			isa = XCConfigurationList;
@@ -2391,6 +2366,7 @@
 				C81BAA531EB98FD6006C25BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
